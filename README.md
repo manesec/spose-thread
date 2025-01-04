@@ -2,7 +2,7 @@
 
 Squid Pivoting Open Port Scanner
 
-mode by @manesec, add threading support and setup.py.
+mod by @manesec, add threading support and setup.py.
 
 Detecting open port behind squid proxy for CTF and pentest purpose using http proxy method. Only for Python 3 version.
 
@@ -12,6 +12,8 @@ Detecting open port behind squid proxy for CTF and pentest purpose using http pr
 $ pipx install git+https://github.com/manesec/spose-thread
 
 $ spose --help
+
+$ spose --proxy http://10.10.74.39:3128 --target 127.0.0.1 --allports --threads 100
 ```
 
 ## Manual way

@@ -16,7 +16,7 @@ $ spose --help
 $ spose --proxy http://10.10.74.39:3128 --target 127.0.0.1 --allports --threads 100
 ```
 
-## Manual way
+## Manually
 
 ```
 ❯ python3 ./spose.py --help
